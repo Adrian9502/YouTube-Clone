@@ -1,0 +1,108 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: rgb(15,15,15);
+  width: 195px;
+  z-index: 200;
+  color:white; 
+  font-size: 10px;
+  margin: 10px;
+  overflow-y:auto;
+  overflow-x:hidden;
+  flex-grow: 1;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+@media (max-width: 768px){
+  .sidebar, .sidebar-link{
+    width: 100px;
+  } 
+} 
+.sidebar::-webkit-scrollbar,.sidebar:hover::-webkit-scrollbar{
+  width: 5px;
+}
+.sidebar::-webkit-scrollbar-thumb,
+.sidebar::-webkit-scrollbar-track,
+.sidebar:hover::-webkit-scrollbar-thumb,
+.sidebar:hover::-webkit-scrollbar-track {
+  background: rgb(140,140,140);
+}
+.sidebar::-webkit-scrollbar-track,
+.sidebar:hover::-webkit-scrollbar-track {
+  background: #151515;
+}
+.sidebar-link{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 190px;
+  background-color: rgb(15,15,15);;
+  flex-direction: row;
+  color:white;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-left: -8px;
+  white-space: nowrap;
+}
+.sidebar-link div{
+  background-color: transparent;
+  position:absolute;
+  left: 50px;
+  width: 50px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sidebar-link img {
+  height: 20px;
+  margin: 5px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  flex-direction: row;
+}
+.subscription-channel{
+  height: 35px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: row;
+  margin-top:7px;
+  background-color:rgb(15,15,15);
+  border-radius: 10px;
+  white-space: nowrap;
+}
+.subscription-channel div{
+  margin: 10px;
+}
+.subscription-channel img {
+  height: 26px;
+  border-radius: 13px;
+  margin-left: 10px;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  flex-direction: row;
+}
+.sidebar-link:hover,
+.subscription-channel:hover{
+  background-color: rgb(50, 50, 50);
+  transition: background-color .15s;
+}
+.subscription-sidebar{
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+

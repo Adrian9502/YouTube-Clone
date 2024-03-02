@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
+    <link rel="icon" href="icons/web-icon.png" type="image">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="stylesyoutube/general.css">
+    <link rel="stylesheet" href="stylesyoutube/header.css">
+    <link rel="stylesheet" href="stylesyoutube/video.css">
+    <link rel="stylesheet" href="stylesyoutube/sidebar.css">
+    <link rel="stylesheet" href="stylesyoutube/footer.css">
+  </head>
+  <body>
+    <!--HEADER START-->
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.png">
+        <a href="https://www.youtube.com">
+        <img class="youtube-logo" src="icons/youtube-logo.png">
+        </a>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.png">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/mic.png">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/create.png">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.png">
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notification-icon-container">
+          <img class="notification-icon" src="icons/notif.png">
+          <div class="tooltip">Notification</div>
+        </div>
+        <a href="https://www.youtube.com/channel/UCFdgaoqUkYEVJ-b0OkG5sgA">
+        <img class="current-user-picture" src="channel-picture/profPIC.jpg">
+        </a>
+      </div>
+    </header>
+    <!--HEADER END-->
+
+    <!--SIDE BAR START-->
+    <nav class="sidebar">
+      <!--HOME START-->
+           <a href="https://www.youtube.com">
+                <div class="sidebar-link">
+                    <img src="icons/home.png" alt="Home Icon">
+                    <div>Home</div>
+                </div>
+          </a> 
+      <!--HOME END-->
+      <!--EXPLORE START-->
+            <a href="https://www.youtube.com/feed/trending">
+                <div class="sidebar-link">
+                  <img src="icons/explore.png" alt="Explore Icon">
+                  <div>Explore</div>
+                </div>
+            </a>    
+      <!--EXPLORE END-->
+      <!--SUBSCRIPTION START-->
+            <a href="https://www.youtube.com/feed/subscriptions">
+                <div class="sidebar-link">
+                  <img src="icons/subscriptions.png" alt="Subscriptions Icon">
+                  <div>Subscriptions</div>
+                </div>
+            </a>
+      <!--SUBSCRIPTION END-->
+      <hr>
+      <!--ORIGINALS START-->
+            <a href="https://www.youtube.com/@youtubeoriginals">
+                <div class="sidebar-link">
+                  <img src="icons/originals.png" alt="Originals Icon">
+                  <div>Originals</div>
+                </div>
+            </a>    
+      <!--ORIGINALS END-->
+      <!--YOUTUBE MUSIC START-->
+            <a href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ">
+                <div class="sidebar-link">
+                  <div>YouTube Music</div>
+                  <img src="icons/youtube-music.png" alt="YouTube Music Icon"> 
+                </div>
+            </a>
+      <!--YOUTUBE MUSIC END-->
+      <!--LIBRARY START-->
+            <a href="https://www.youtube.com/feed/library">
+                <div class="sidebar-link">
+                  <div>Library</div>
+                  <img src="icons/library.png" alt="Library Icon">
+                </div>
+            </a>
+      <!--LIBRARY END-->
+                <hr>
+      <!--HISTORY START-->
+            <a href="https://www.youtube.com/feed/history">
+                <div class="sidebar-link">
+                  <div>History</div>
+                  <img src="icons/history.png" alt="History Icon"> 
+                </div>
+            </a>
+      <!--HISTORY END-->
+      <!--DOWNLOADS START--> 
+            <a href="https://www.youtube.com/feed/downloads">         
+                <div class="sidebar-link">
+                  <div>Downloads</div>
+                  <img src="icons/download.png" alt="Download Icon">
+                </div>
+            </a>
+      <!--DOWNLOADS END-->
+      <!--LIKED VIDEOS START-->  
+            <a href="https://www.youtube.com/playlist?list=LL">        
+                <div class="sidebar-link">
+                  <div>Liked Videos</div>
+                  <img src="icons/like.png" alt="Like Icon">
+                </div>
+            </a>
+      <!--LIKED VIDEOS END-->
+      <hr>
+      <!--Subcription-->
+      <div class="subscription-sidebar">
+        Subscriptions
+      </div>
+      <!--SuperSimpleDev START-->
+            <a href="https://www.youtube.com/@SuperSimpleDev">
+                <div class="subscription-channel">
+                  <img src="channel-picture/supersimple-profile.jpg" alt="supersimple.dev icon">
+                  <div>SuperSimpleDev</div>
+                </div>
+            </a>
+      <!--SuperSimpleDev END-->
+      <!--BRO CODE START-->
+            <a href="https://www.youtube.com/@BroCodez">
+                <div class="subscription-channel">
+                  <img src="channel-picture/bro-code-profile.jpg" alt="bro code icon">
+                  <div>Bro Code</div>
+                </div>
+            </a>
+      <!--BRO CODE END-->
+      <!--THE WEEKND START-->
+            <a href="https://www.youtube.com/results?search_query=the+weeknd">
+                <div class="subscription-channel">
+                  <img src="channel-picture/theweekndprofile.jpg" alt="the weeknd icon">
+                  <div>The Weeknd</div>
+                </div>
+            </a>
+      <!--THE WEEKND END-->
+      <!--NICK DIGIOVANNI START-->
+            <a href="https://www.youtube.com/@NickDiGiovanni">
+                <div class="subscription-channel">
+                  <img src="channel-picture/nick-profile.jpg" alt="nick d icon">
+                  <div>Nick DiGiovanni</div>
+                </div>
+            </a>
+      <!--NICK DIGIOVANNI END-->
+      <!--MAX THE MEAT GUY START-->
+            <a href="https://www.youtube.com/@MaxtheMeatGuy">
+                <div class="subscription-channel">
+                  <img src="channel-picture/max-profile.jpg" alt="max icon">
+                  <div>Max The Meat Guy</div>
+                </div>
+            </a>    
+      <!--MAX THE MEAT GUY END-->
+      <!--JOJI START-->
+            <a href="https://www.youtube.com/channel/UCFl7yKfcRcFmIUbKeCA-SJQ">
+                <div class="subscription-channel">
+                  <img src="channel-picture/jojiprofile.jpg" alt="joji icon">
+                  <div>Joji</div>
+                </div>
+            </a>    
+      <!--JOJI END-->
+      <!--SDPT SOLUTIONS START-->
+            <a href="https://www.youtube.com/@SDPTSolutions">
+                <div class="subscription-channel">
+                  <img src="channel-picture/sdpt-profile.jpg" alt="sdpt icon">
+                  <div>SDPT Solutions</div>
+                </div>
+            </a>
+      <!--SDPT SOLUTIONS END--> 
+      <!--HOW TO BASIC START--> 
+            <a href="https://www.youtube.com/@HowToBasic">         
+                <div class="subscription-channel">
+                  <img src="channel-picture/howtobasicjpg.jpg" alt="howtobasic icon">
+                  <div>How To Basic</div>
+                </div>
+            </a>
+      <!--HOW TO BASIC END-->    
+      <!--BRUNO MARS START-->
+            <a href="https://www.youtube.com/@brunomars">      
+                <div class="subscription-channel">
+                  <img src="channel-picture/brunomars.jpg" alt="brunomars icon">
+                  <div>Bruno Mars</div>
+                </div>
+            </a>    
+      <!--BRUNO MARS END-->     
+      <!--DAILY DOSE OF INTERNET START-->
+            <a href="https://www.youtube.com/@DailyDoseOfInternet">     
+                <div class="subscription-channel">
+                  <img src="channel-picture/dailydose.jpg" alt="dailydose icon">
+                  <div>Daily Dose of Internet</div>
+                </div>
+            </a>
+      <!--DAILY DOSE OF INTERNET END-->
+      <!--SKRILLEX START-->
+            <a href="https://www.youtube.com/@Skrillex">
+                <div class="subscription-channel">
+                  <img src="channel-picture/skrill.jpg" alt="skrillex icon">
+                  <div>Skrillex</div>
+                </div>
+            </a>    
+      <!--SKRILLEX END-->
+      <!--PROGRAM WITH MOSH START-->
+            <a href="https://www.youtube.com/@programmingwithmosh">
+                <div class="subscription-channel">
+                  <img src="channel-picture/programwithmosh.jpg" alt="progwithmosh icon">
+                  <div>Programming with Mosh</div>
+                </div>
+            </a>    
+      <!--PROGRAM WITH MOSH END-->
+      <!--THAT DUDE CAN COOK START-->
+            <a href="https://www.youtube.com/@thatdudecancook">
+                <div class="subscription-channel">
+                  <img src="channel-picture/thatdude.jpg" alt="thatdude icon">
+                  <div>That Dude Can Cook</div>
+                </div>
+            </a>
+      <!--THAT DUDE CAN COOK END-->
+      <!--WISH 107.5 START-->
+            <a href="https://www.youtube.com/@WishFM1075official">
+                <div class="subscription-channel">
+                  <img src="channel-picture/wish.jpg" alt="wish icon">
+                  <div>Wish 107.5</div>
+                </div>
+            </a>    
+      <!--WISH 107.5 END-->
+      <!--BILLIE EILISH START-->
+            <a href="https://www.youtube.com/channel/UCiGm_E4ZwYSHV3bcW1pnSeQ">
+                <div class="subscription-channel">
+                  <img src="channel-picture/billie.jpg" alt="billie icon">
+                  <div>Billie Eilish</div>
+                </div>
+            </a>    
+      <!--BILLIE EILISH END-->
+      <!--DOOMERIS START-->
+            <a href="https://www.youtube.com/@Doomeris">
+                <div class="subscription-channel">
+                  <img src="channel-picture/doomeris.jpg" alt="doomer icon">
+                  <div>Doomeris</div>
+                </div>
+            </a>
+      <!--DOOMERIS END-->
+      <!--WHATIF START-->
+            <a href="https://www.youtube.com/@WhatIfScienceShow">
+                <div class="subscription-channel">
+                  <img src="channel-picture/whatif.jpg" alt="whatif icon">
+                  <div>What If</div>
+                </div>
+            </a>    
+      <!--WHATIF END-->
+      <!--Subscription end-->
+    </nav>
+     <!--SIDE BAR END-->   
+
+<main class="video-grid">
+
+<!-- THUMBNAIL 1 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=4NRXx6U8ABQ">
+      <img class="thumbnail" src="thumbnails/blindinglights.jpg">
+    </a>
+    <time class="video-time">4:23</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <!-- LINK TO CHANNEL PROFILE -->
+      <a href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ">
+        <img class="profile-picture" src="channel-picture/theweekndprofile.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <a href="https://www.youtube.com/watch?v=4NRXx6U8ABQ">
+        <p class="video-title">
+          The Weeknd - Blinding Lights (Official Video)
+        </p>
+      </a>
+      <!-- LINK TO CHANNEL PROFILE -->
+      <a href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ">
+        <p class="video-author">
+          The Weeknd  &#9834;
+        </p>
+      </a>
+      <p class="video-stats">
+        760M views &centerdot; 3 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 1 END -->
+    
+<!-- THUMBNAIL 2 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=ujriV3vkC9w">
+      <img class="thumbnail" src="thumbnails/joji-afterthought.jpg">
+    </a>
+    <time class="video-time">3:15</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCFl7yKfcRcFmIUbKeCA-SJQ">
+        <img class="profile-picture" src="channel-picture/jojiprofile.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Joji & BENEE - Afterthought
+      </p>
+      <p class="video-author">
+        Joji  &#9834;
+      </p>
+      <p class="video-stats">
+        21M views &centerdot; 3 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 2 END -->
+
+<!-- THUMBNAIL 3 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=kIEWJ1ljEro">
+      <img class="thumbnail" src="thumbnails/joji-dieforyoujpg.jpg">
+    </a>
+    <time class="video-time">3:32</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCFl7yKfcRcFmIUbKeCA-SJQ">
+        <img class="profile-picture" src="channel-picture/jojiprofile.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Joji - Die For You
+      </p>
+      <p class="video-author">
+        Joji &#9834;
+      </p>
+      <p class="video-stats">
+        63M views &centerdot; 11 months ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 3 END -->
+
+<!-- THUMBNAIL 4 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=jPan651rVMs">
+      <img class="thumbnail" src="thumbnails/joji-gimmelove.jpg">
+    </a>
+    <time class="video-time">3:46</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCFl7yKfcRcFmIUbKeCA-SJQ">
+        <img class="profile-picture" src="channel-picture/jojiprofile.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Joji - Gimme Love (Official Video)
+      </p>
+      <p class="video-author">
+        Joji  &#9834;
+      </p>
+      <p class="video-stats">
+        84M views &centerdot; 3 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 4 END -->
+ 
+<!-- THUMBNAIL 5 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=NgsWGfUlwJI">
+      <img class="thumbnail" src="thumbnails/joji-glimpse.jpg">
+    </a>
+    <time class="video-time">3:55</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCFl7yKfcRcFmIUbKeCA-SJQ">
+        <img class="profile-picture" src="channel-picture/jojiprofile.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Joji - Glimpse of Us (Official Video)
+      </p>
+      <p class="video-author">
+        Joji &#9834;
+      </p>
+      <p class="video-stats">
+        52M views &centerdot; 1 year ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 5 END -->
+
+<!-- THUMBNAIL 6 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=K09_5IsgGe8">
+      <img class="thumbnail" src="thumbnails/joji-run.jpg">
+    </a>
+    <time class="video-time">4:36</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCFl7yKfcRcFmIUbKeCA-SJQ">
+        <img class="profile-picture" src="channel-picture/jojiprofile.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Joji - Run (Official Video)
+      </p>
+      <p class="video-author">
+        Joji  &#9834;
+      </p>
+      <p class="video-stats">
+        82M views &centerdot; 3 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 6 END -->
+   
+<!-- THUMBNAIL 7 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=YWN81V7ojOE">
+      <img class="thumbnail" src="thumbnails/joji-sancturay.jpg">
+      <time class="video-time">4:37</time>
+    </a>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCFl7yKfcRcFmIUbKeCA-SJQ">
+        <img class="profile-picture" src="channel-picture/jojiprofile.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Joji - Sanctuary (Official Video)
+      </p>
+      <p class="video-author">
+        Joji  &#9834;
+      </p>
+      <p class="video-stats">
+        93M views &centerdot; 4 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 7 END -->
+
+<!-- THUMBNAIL 8 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=UKunvvN2iCk">
+      <img class="thumbnail" src="thumbnails/lessthanzero.jpg">
+    </a>
+    <time class="video-time">4:37</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ">
+        <img class="profile-picture" src="channel-picture/theweekndprofile.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        The Weeknd - Less Than Zero (Official Lyric Video)
+      </p>
+      <p class="video-author">
+        The Weeknd  &#9834;
+      </p>
+      <p class="video-stats">
+        22M views &centerdot; 1 year ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 8 END -->
+
+<!-- THUMBNAIL 9 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=i5zQ7q0cMbs">
+      <img class="thumbnail" src="thumbnails/ojtoftime-xoos.jpg">
+    </a>
+    <time class="video-time">2:35</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/@xooos">
+        <img class="profile-picture" src="channel-picture/xooos.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Out of Time - The Weeknd (xooos cover)
+      </p>
+      <p class="video-author">
+        xooos 수스
+      </p>
+      <p class="video-stats">
+        7.7M views &centerdot; 1 year ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 9 END -->
+
+<!-- THUMBNAIL 10 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=2fDzCWNS3ig">
+      <img class="thumbnail" src="thumbnails/outoftime.jpg">
+    </a>
+    <time class="video-time">3:54</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ">
+        <img class="profile-picture" src="channel-picture/theweekndprofile.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Out of Time - The Weeknd (Official Video)
+      </p>
+      <p class="video-author">
+        The Weeknd &#9834;
+      </p>
+      <p class="video-stats">
+        104M views &centerdot; 1 year ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 10 END -->
+
+<!-- THUMBNAIL 11 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=JZjAg6fK-BQ">
+      <img class="thumbnail" src="thumbnails/reminder.jpg">
+    </a>
+    <time class="video-time">3:51</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ">
+        <img class="profile-picture" src="channel-picture/theweekndprofile.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        The Weeknd - Reminder (Official Video)
+      </p>
+      <p class="video-author">
+        The Weeknd &#9834;
+      </p>
+      <p class="video-stats">
+        473M views &centerdot; 6 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 11 END -->
+
+<!-- THUMBNAIL 12 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=XXYlFuWEuKI">
+      <img class="thumbnail" src="thumbnails/saveyourtears.jpg">
+    </a>
+    <time class="video-time">4:09</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ">
+        <img class="profile-picture" src="channel-picture/theweekndprofile.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        The Weeknd - Save Your Tears (Official Music Video)
+      </p>
+      <p class="video-author">
+        The Weeknd &#9834;
+      </p>
+      <p class="video-stats">
+        1.3B views &centerdot; 2 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 12 END -->
+
+<!-- THUMBNAIL 13 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=_t2TzJOyops">
+      <img class="thumbnail" src="thumbnails/ruffneck.jpg">
+    </a>
+    <time class="video-time">3:35</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Skrillex - Ruffneck - FULL Flex [Music Video]
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        111M views &centerdot; 11 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 13 END -->
+
+<!-- THUMBNAIL 14 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=VZMfhtKa-wo">
+      <img class="thumbnail" src="thumbnails/promises.jpg">
+    </a>
+    <time class="video-time">4:29</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        NERO 'PROMISES'(SKRILLEX AND NERO REMIX)
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        63M views &centerdot; 12 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 14 END -->
+
+<!-- THUMBNAIL 15 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=eOofWzI3flA">
+      <img class="thumbnail" src="thumbnails/rocknroll.jpg">
+    </a>
+    <time class="video-time">4:34</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Skrillex - Rock n Roll (Will Take You to the Mountain)
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        165M views &centerdot; 12 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 15 END -->
+
+<!-- THUMBNAIL 16 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=gh72dXr4fTM">
+      <img class="thumbnail" src="thumbnails/humble.jpg">
+    </a>
+    <time class="video-time">2:37</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Kendrick Lamar - HUMBLE. (Skrillex Remix) [Official Audio]
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        72M views &centerdot; 6 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 16 END -->
+
+<!-- THUMBNAIL 17 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=Mq-aVCUs2Q0">
+      <img class="thumbnail" src="thumbnails/dirtyvibe.jpg">
+    </a>
+    <time class="video-time">2:51</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Skrillex - Dirty Vibe with Diplo, CL, & G-Dragon(OFFICIAL VIDEO)
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        63M views &centerdot; 8 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 17 END -->
+
+<!-- THUMBNAIL 18 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=PzEgrNigZdw">
+      <img class="thumbnail" src="thumbnails/alliask.jpg">
+    </a>
+    <time class="video-time">5:41</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        SKRILLEX - ALL I ASK OF YOU (FEAT PENNY)
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        28M views &centerdot; 13 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 18 END -->
+
+<!-- THUMBNAIL 19 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=qI1ondD4FGU">
+      <img class="thumbnail" src="thumbnails/redlips.jpg">
+    </a>
+    <time class="video-time">3:50</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        GTA - Red Lips feat. Sam Bruno (Skrillex Remix) [Official Video]
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        72M views &centerdot; 7 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 19 END -->
+
+<!-- THUMBNAIL 20 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=nntGTK2Fhb0">
+      <img class="thumbnail" src="thumbnails/whereareyounow.jpg">
+    </a>
+    <time class="video-time">4:12</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <img class="profile-picture" src="channel-picture/skrill.jpg">
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Skrillex and Diplo - "Where are Ü Now" with Justin Bieber (Official Video)
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        1.2B views &centerdot; 8 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 20 END -->
+
+<!-- THUMBNAIL 21 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=r-SurvChGFk">
+      <img class="thumbnail" src="thumbnails/wouldyouever.jpg">
+    </a>
+    <time class="video-time">3:42</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Skrillex & Poo Bear - Would You Ever (Official Music Video)
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        59M views &centerdot; 6 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 21 END -->
+
+<!-- THUMBNAIL 22 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=86khmc6y1yE">
+      <img class="thumbnail" src="thumbnails/kyoto.jpg">
+    </a>
+    <time class="video-time">3:21</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        SKRILLEX - KYOTO (FT.SIRAH)
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        160M views &centerdot; 11 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 22 END -->
+      
+<!-- THUMBNAIL 23 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=ZkqyIoYAXV8">
+      <img class="thumbnail" src="thumbnails/purplelambo.jpg">
+    </a>
+    <time class="video-time">4:22</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Skrillex & Rick Ross - Purple Lamborghini [Official Video]
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        529M views &centerdot; 7 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 23 END -->
+
+<!-- THUMBNAIL 24 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=fDrTbLXHKu8">
+      <img class="thumbnail" src="thumbnails/midn.jpg">
+    </a>
+    <time class="video-time">4:02</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Skrillex & Diplo - "Mind" feat.Kai (Official Video)
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        378M views &centerdot; 7 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 24 END -->
+
+<!-- THUMBNAIL 25 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=R8i6VZ1vIY8">
+      <img class="thumbnail" src="thumbnails/recess.jpg">
+    </a>
+    <time class="video-time">3:58</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Skrillex & Kill The Noise - Recess ft.Fatman Scoop and Michael Angelakos (Official Audio)
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        70M views &centerdot; 9 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 25 END -->
+
+<!-- THUMBNAIL 26 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=F21aifX0lZY">
+      <img class="thumbnail" src="thumbnails/killevery.jpg">
+    </a>
+    <time class="video-time">5:01</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Skrillex - Kill Everybody (Official Audio)
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        148M views &centerdot; 13 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 26 END -->
+     
+<!-- THUMBNAIL 27 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=-e_3Cg9GZFU">
+      <img class="thumbnail" src="thumbnails/summit.jpg">
+    </a>
+    <time class="video-time">6:11</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Skrillex - Summit (feat. Ellie Goulding) [Video by Pilerats]
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        183M views &centerdot; 10 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 27 END -->
+
+<!-- THUMBNAIL 28 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=2cXDgFwE13g">
+      <img class="thumbnail" src="thumbnails/firstoftheyear.jpg">
+    </a>
+    <time class="video-time">3:15</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Skrillex - First Of The Year (Equinox) [Official Music Video]
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        477M views &centerdot; 12 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 28 END -->
+     
+<!-- THUMBNAIL 29 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=BGpzGu9Yp6Y">
+      <img class="thumbnail" src="thumbnails/makeit bun dem.jpg">
+    </a>
+    <time class="video-time">3:39</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Skrillex & Damian "Jr. Gong" Marley - Make It Bun Dem [OFFICIAL VIDEO]
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        602M views &centerdot; 11 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 29 END -->
+
+<!-- THUMBNAIL 30 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=Aa2RSFYcoko">
+      <img class="thumbnail" src="thumbnails/fireaway.jpg">
+    </a>
+    <time class="video-time">5:42</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Skrillex - Fire Away with Kid Harpoon [AUDIO]
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        13M views &centerdot; 9 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 30 END -->
+    
+<!-- THUMBNAIL 31 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=YJVmu6yttiw">
+      <img class="thumbnail" src="thumbnails/bangarang.jpg">
+    </a>
+    <time class="video-time">3:39</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UC_TVqp_SyG6j5hG-xVRy95A">
+        <img class="profile-picture" src="channel-picture/skrill.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Skrillex - Bangarang feat. Sirah [Official Music Video]
+      </p>
+      <p class="video-author">
+        Skrillex &#9834;
+      </p>
+      <p class="video-stats">
+        929M views &centerdot; 11 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 31 END -->
+
+<!-- THUMBNAIL 32 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=PAAvNmoqDq0">
+      <img class="thumbnail" src="thumbnails/sulfur.jpg">
+    </a>
+    <time class="video-time">5:04</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCOJZ1tna8yj8mAEITPkHNCQ">
+        <img class="profile-picture" src="channel-picture/slipknot.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Slipknot - Sulfur [OFFICIAL VIDEO][HD]
+      </p>
+      <p class="video-author">
+        Slipknot &#9834;
+      </p>
+      <p class="video-stats">
+        120M views &centerdot; 14 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 32 END -->
+      
+<!-- THUMBNAIL 33 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=MGbjB0eVvko">
+      <img class="thumbnail" src="thumbnails/birthofthecruel.jpg">
+    </a>
+    <time class="video-time">4:36</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCOJZ1tna8yj8mAEITPkHNCQ">
+        <img class="profile-picture" src="channel-picture/slipknot.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Slipknot - Birth Of The Cruel (Vertical Video)
+      </p>
+      <p class="video-author">
+        Slipknot &#9834;
+      </p>
+      <p class="video-stats">
+        10M views &centerdot; 4 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 33 END -->
+
+<!-- THUMBNAIL 34 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=V3ADK6gsDGg">
+      <img class="thumbnail" src="thumbnails/solway.jpg">
+    </a>
+    <time class="video-time">6:06</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCOJZ1tna8yj8mAEITPkHNCQ">
+        <img class="profile-picture" src="channel-picture/slipknot.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Slipknot - Solway Firth [OFFICIAL VIDEO]
+      </p>
+      <p class="video-author">
+        Slipknot &#9834;
+      </p>
+      <p class="video-stats">
+        80M views &centerdot; 4 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 34 END -->
+       
+<!-- THUMBNAIL 35 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=6fVE8kSM43I">
+      <img class="thumbnail" src="thumbnails/duality.jpg">
+    </a>
+    <time class="video-time">3:35</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCOJZ1tna8yj8mAEITPkHNCQ">
+        <img class="profile-picture" src="channel-picture/slipknot.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Slipknot - Duality [OFFICIAL VIDEO] [HD]
+      </p>
+      <p class="video-author">
+        Slipknot &#9834;
+      </p>
+      <p class="video-stats">
+        386M views &centerdot; 14 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 35 END -->
+
+<!-- THUMBNAIL 36 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=qw2LU1yS7aw">
+      <img class="thumbnail" src="thumbnails/before i forget.jpg">
+    </a>
+    <time class="video-time">4:04</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCOJZ1tna8yj8mAEITPkHNCQ">
+        <img class="profile-picture" src="channel-picture/slipknot.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Slipknot - Before I Forget [OFFICIAL VIDEO] [HD]
+      </p>
+      <p class="video-author">
+        Slipknot &#9834;
+      </p>
+      <p class="video-stats">
+        269M views &centerdot; 14 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 36 END -->
+       
+<!-- THUMBNAIL 37 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=5abamRO41fE">
+      <img class="thumbnail" src="thumbnails/psychosoci.jpg">
+    </a>
+    <time class="video-time">5:03</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCOJZ1tna8yj8mAEITPkHNCQ">
+        <img class="profile-picture" src="channel-picture/slipknot.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Slipknot - Psychosocial [OFFICIAL VIDEO] [HD]
+      </p>
+      <p class="video-author">
+        Slipknot &#9834;
+      </p>
+      <p class="video-stats">
+        503M views &centerdot; 14 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 37 END -->
+
+<!-- THUMBNAIL 38 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=UtF6Jej8yb4">
+      <img class="thumbnail" src="thumbnails/thenights.jpg">
+    </a>
+    <time class="video-time">3:11</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCPHjpfnnGklkRBBTd0k6aHg">
+        <img class="profile-picture" src="channel-picture/avicii.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Avicii - The Nights
+      </p>
+      <p class="video-author">
+        Avicii &#9834;
+      </p>
+      <p class="video-stats">
+        920M views &centerdot; 8 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 38 END -->
+      
+<!-- THUMBNAIL 39 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=_ovdm2yX4MA">
+      <img class="thumbnail" src="thumbnails/levels.jpg">
+    </a>
+    <time class="video-time">3:19</time>
+  </div>
+  <div class="video-info-grid">
+    <a href="https://www.youtube.com/channel/UCPHjpfnnGklkRBBTd0k6aHg">
+      <div class="channel-picture">
+        <img class="profile-picture" src="channel-picture/avicii.jpg">
+      </div>
+    </a>
+    <div class="video-info">
+      <p class="video-title">
+        Avicii - Levels
+      </p>
+      <p class="video-author">
+        Avicii &#9834;
+      </p>
+      <p class="video-stats">
+        661M views &centerdot; 11 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 39 END -->
+
+<!-- THUMBNAIL 40 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=6Cp6mKbRTQY">
+      <img class="thumbnail" src="thumbnails/heybrother.jpg">
+    </a>
+    <time class="video-time">4:24</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCPHjpfnnGklkRBBTd0k6aHg">
+        <img class="profile-picture" src="channel-picture/avicii.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Avicii - Hey Brother
+      </p>
+      <p class="video-author">
+        Avicii &#9834;
+      </p>
+      <p class="video-stats">
+        305M views &centerdot; 9 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 40 END -->
+      
+<!-- THUMBNAIL 41 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=cHHLHGNpCSA">
+      <img class="thumbnail" src="thumbnails/waitingforlove.jpg">
+    </a>
+    <time class="video-time">3:51</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCPHjpfnnGklkRBBTd0k6aHg">
+        <img class="profile-picture" src="channel-picture/avicii.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Avicii - Waiting For Love
+      </p>
+      <p class="video-author">
+        Avicii &#9834;
+      </p>
+      <p class="video-stats">
+        1.1B views &centerdot; 8 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 41 END -->
+
+<!-- THUMBNAIL 42 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=fLexgOxsZu0">
+      <img class="thumbnail" src="thumbnails/lazysong.jpg">
+    </a>
+    <time class="video-time">3:19</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCoUM-UJ7rirJYP8CQ0EIaHA">
+        <img class="profile-picture" src="channel-picture/brunomars.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+         Bruno Mars - The Lazy Song (Official Music Video)
+      </p>
+      <p class="video-author">
+        Bruno Mars &#9834;
+      </p>
+      <p class="video-stats">
+        2.6B views &centerdot; 12 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 42 END -->
+
+<!-- THUMBNAIL 43 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=CEw-7cMnBDY">
+      <img class="thumbnail" src="thumbnails/skate.jpg">
+    </a>
+    <time class="video-time">3:24</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCoUM-UJ7rirJYP8CQ0EIaHA">
+        <img class="profile-picture" src="channel-picture/brunomars.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+         Bruno Mars, Anderson .Paak, Silk Sonic - Skate [Official Music Video]
+      </p>
+      <p class="video-author">
+        Bruno Mars &#9834;
+      </p>
+      <p class="video-stats">
+        114M views &centerdot; 2 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 43 END -->
+
+<!-- THUMBNAIL 44 START -->
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <a href="https://www.youtube.com/watch?v=ekzHIouo8Q4">
+      <img class="thumbnail" src="thumbnails/wheniwas.jpg">
+    </a>
+    <time class="video-time">3:24</time>
+  </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <a href="https://www.youtube.com/channel/UCoUM-UJ7rirJYP8CQ0EIaHA">
+        <img class="profile-picture" src="channel-picture/brunomars.jpg">
+      </a>
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+         Bruno Mars - When I Was Your Man (Official Music Video)
+      </p>
+      <p class="video-author">
+        Bruno Mars &#9834;
+      </p>
+      <p class="video-stats">
+        1.3B views &centerdot; 10 years ago
+      </p>
+    </div>
+  </div>
+</div>
+<!-- THUMBNAIL 44 END -->   
+    </main>
+  </body>
+</html>
